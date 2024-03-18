@@ -25,8 +25,7 @@ conda create --name gsta
 pip install torch==1.8.0+cu101 --extra-index-url https://download.pytorch.org/whl/cu101
 ```
 6. 下载依赖文件\
-   链接: https://pan.baidu.com/s/1ljj3y-Um9zfBaNs9WwiUKA 提取码: 67u5 复制这段内容后打开百度网盘手机App，操作更方便哦
-   --来自百度网盘超级会员v7的分享
+   链接: https://pan.baidu.com/s/1ljj3y-Um9zfBaNs9WwiUKA 提取码: 67u5
 
 7. 安装[argoverse-api-1.1.0](env/argoverse-api-1.1.0.zip)\
   将压缩包解压，并将[hd_map.tar.gz](env/hd_map.tar.gz)解压到argoverse-api-1.1.0目录内，直行命令:
