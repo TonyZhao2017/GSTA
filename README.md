@@ -24,20 +24,24 @@ nvcc --version
 conda create --name gsta
 pip install torch==1.8.0+cu101 --extra-index-url https://download.pytorch.org/whl/cu101
 ```
-6. 安装[argoverse-api-1.1.0](env/argoverse-api-1.1.0.zip)\
+6. 下载依赖文件\
+   链接: https://pan.baidu.com/s/1ljj3y-Um9zfBaNs9WwiUKA 提取码: 67u5 复制这段内容后打开百度网盘手机App，操作更方便哦
+   --来自百度网盘超级会员v7的分享
+
+7. 安装[argoverse-api-1.1.0](env/argoverse-api-1.1.0.zip)\
   将压缩包解压，并将[hd_map.tar.gz](env/hd_map.tar.gz)解压到argoverse-api-1.1.0目录内，直行命令:
 ```
 pip install -e ./argoverse-api-1.1.0/
 ```
-7. 安装geometric依赖的三方件\
+8. 安装geometric依赖的三方件\
    https://pytorch-geometric.com/whl/
    在网址找到与torch版本以及cuda版本对应的whl，通过pip install进行安装，本示例已整理在此压缩文件
   [whls.zip](env/whls.zip)
-8. 安装geometric
+9. 安装geometric
 ```
 pip install pytorch-geometric==1.7.2
 ```
-9. 安装lightning
+10. 安装lightning
 ```
 pip install pytorch-lightning==1.5.2
 ```
@@ -51,6 +55,7 @@ wget https://s3.amazonaws.com/argoverse/datasets/av1.1/tars/forecasting_test_v1.
 wget https://s3.amazonaws.com/argoverse/datasets/av1.1/tars/forecasting_train_v1.1.tar.gz
 ```
 下载到指定目录，并解压
+
 
 ## 训练
 ```
